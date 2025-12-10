@@ -1,0 +1,32 @@
+[10.233s] Invoking command in '/home/qadeem/control/ros2_ws/src/rfbl_controller': PYTHONPATH=/home/qadeem/control/ros2_ws/build/rfbl_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rfbl_controller build --build-base /home/qadeem/control/ros2_ws/build/rfbl_controller/build install --record /home/qadeem/control/ros2_ws/build/rfbl_controller/install.log --single-version-externally-managed install_data
+[13.884s] running egg_info
+[14.191s] writing ../../build/rfbl_controller/rfbl_controller.egg-info/PKG-INFO
+[14.200s] writing dependency_links to ../../build/rfbl_controller/rfbl_controller.egg-info/dependency_links.txt
+[14.201s] writing entry points to ../../build/rfbl_controller/rfbl_controller.egg-info/entry_points.txt
+[14.203s] writing requirements to ../../build/rfbl_controller/rfbl_controller.egg-info/requires.txt
+[14.203s] writing top-level names to ../../build/rfbl_controller/rfbl_controller.egg-info/top_level.txt
+[14.721s] reading manifest file '../../build/rfbl_controller/rfbl_controller.egg-info/SOURCES.txt'
+[14.740s] writing manifest file '../../build/rfbl_controller/rfbl_controller.egg-info/SOURCES.txt'
+[14.750s] running build
+[14.755s] running build_py
+[14.759s] copying rfbl_controller/xy_position_controller.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+[14.770s] copying rfbl_controller/rfbl_offboard_node.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+[14.780s] copying rfbl_controller/disturbance_observer.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+[14.791s] copying rfbl_controller/rfbl_controller.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+[14.798s] copying rfbl_controller/params_refs.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+[14.806s] copying rfbl_controller/__init__.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+[14.809s] copying rfbl_controller/xy_disturbance_observer.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+[14.818s] running install
+[14.844s] running install_lib
+[15.085s] copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/rfbl_offboard_node.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+[15.097s] byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/rfbl_offboard_node.py to rfbl_offboard_node.cpython-310.pyc
+[15.118s] running install_data
+[15.125s] copying resource/rfbl_controller -> /home/qadeem/control/ros2_ws/install/rfbl_controller/share/ament_index/resource_index/packages
+[15.125s] copying package.xml -> /home/qadeem/control/ros2_ws/install/rfbl_controller/share/rfbl_controller
+[15.126s] running install_egg_info
+[15.488s] removing '/home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[15.490s] Copying ../../build/rfbl_controller/rfbl_controller.egg-info to /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller-0.0.0-py3.10.egg-info
+[15.496s] running install_scripts
+[17.105s] Installing rfbl_offboard_node script to /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/rfbl_controller
+[17.115s] writing list of installed files to '/home/qadeem/control/ros2_ws/build/rfbl_controller/install.log'
+[17.308s] Invoked command in '/home/qadeem/control/ros2_ws/src/rfbl_controller' returned '0': PYTHONPATH=/home/qadeem/control/ros2_ws/build/rfbl_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rfbl_controller build --build-base /home/qadeem/control/ros2_ws/build/rfbl_controller/build install --record /home/qadeem/control/ros2_ws/build/rfbl_controller/install.log --single-version-externally-managed install_data

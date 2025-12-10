@@ -1,0 +1,2 @@
+[console_scripts]
+rfbl_offboard_node = rfbl_controller.rfbl_offboard_node:main

@@ -1,0 +1,45 @@
+running develop
+Removing /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl-controller.egg-link (link to .)
+running egg_info
+writing ../../build/rfbl_controller/rfbl_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/rfbl_controller/rfbl_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/rfbl_controller/rfbl_controller.egg-info/entry_points.txt
+writing requirements to ../../build/rfbl_controller/rfbl_controller.egg-info/requires.txt
+writing top-level names to ../../build/rfbl_controller/rfbl_controller.egg-info/top_level.txt
+reading manifest file '../../build/rfbl_controller/rfbl_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/rfbl_controller/rfbl_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+copying rfbl_controller/xy_position_controller.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+copying rfbl_controller/rfbl_offboard_node.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+copying rfbl_controller/disturbance_observer.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+copying rfbl_controller/rfbl_controller.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+copying rfbl_controller/params_refs.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+copying rfbl_controller/__init__.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+copying rfbl_controller/xy_disturbance_observer.py -> /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller
+running install
+running install_lib
+creating /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/xy_position_controller.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/rfbl_offboard_node.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/disturbance_observer.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/rfbl_controller.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/params_refs.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/__init__.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+copying /home/qadeem/control/ros2_ws/build/rfbl_controller/build/lib/rfbl_controller/xy_disturbance_observer.py -> /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller
+byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/xy_position_controller.py to xy_position_controller.cpython-310.pyc
+byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/rfbl_offboard_node.py to rfbl_offboard_node.cpython-310.pyc
+byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/disturbance_observer.py to disturbance_observer.cpython-310.pyc
+byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/rfbl_controller.py to rfbl_controller.cpython-310.pyc
+byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/params_refs.py to params_refs.cpython-310.pyc
+byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/xy_disturbance_observer.py to xy_disturbance_observer.cpython-310.pyc
+running install_data
+copying resource/rfbl_controller -> /home/qadeem/control/ros2_ws/install/rfbl_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/qadeem/control/ros2_ws/install/rfbl_controller/share/rfbl_controller
+running install_egg_info
+Copying ../../build/rfbl_controller/rfbl_controller.egg-info to /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rfbl_offboard_node script to /home/qadeem/control/ros2_ws/install/rfbl_controller/lib/rfbl_controller
+writing list of installed files to '/home/qadeem/control/ros2_ws/build/rfbl_controller/install.log'

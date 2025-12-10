@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.005459] (rfbl_controller) JobQueued: {'identifier': 'rfbl_controller', 'dependencies': OrderedDict()}
+[0.012527] (rfbl_controller) JobStarted: {'identifier': 'rfbl_controller'}
+[0.089840] (-) TimerEvent: {}
+[0.201358] (-) TimerEvent: {}
+[0.308634] (-) TimerEvent: {}
+[0.410568] (-) TimerEvent: {}
+[0.514827] (-) TimerEvent: {}
+[0.616018] (-) TimerEvent: {}
+[0.718099] (-) TimerEvent: {}
+[0.821874] (-) TimerEvent: {}
+[0.928248] (-) TimerEvent: {}
+[1.030108] (-) TimerEvent: {}
+[1.133531] (-) TimerEvent: {}
+[1.244618] (-) TimerEvent: {}
+[1.348826] (-) TimerEvent: {}
+[1.455133] (-) TimerEvent: {}
+[1.557299] (-) TimerEvent: {}
+[1.658141] (-) TimerEvent: {}
+[1.761294] (-) TimerEvent: {}
+[1.865712] (-) TimerEvent: {}
+[1.968329] (-) TimerEvent: {}
+[2.075605] (-) TimerEvent: {}
+[2.178766] (-) TimerEvent: {}
+[2.281303] (-) TimerEvent: {}
+[2.389065] (-) TimerEvent: {}
+[2.498285] (-) TimerEvent: {}
+[2.602049] (-) TimerEvent: {}
+[2.707567] (-) TimerEvent: {}
+[2.809534] (-) TimerEvent: {}
+[2.912709] (-) TimerEvent: {}
+[3.021659] (-) TimerEvent: {}
+[3.123059] (-) TimerEvent: {}
+[3.226600] (-) TimerEvent: {}
+[3.331451] (-) TimerEvent: {}
+[3.436307] (-) TimerEvent: {}
+[3.538289] (-) TimerEvent: {}
+[3.643020] (-) TimerEvent: {}
+[3.753630] (-) TimerEvent: {}
+[3.861296] (-) TimerEvent: {}
+[3.970650] (-) TimerEvent: {}
+[4.074333] (-) TimerEvent: {}
+[4.183945] (-) TimerEvent: {}
+[4.287497] (-) TimerEvent: {}
+[4.400168] (-) TimerEvent: {}
+[4.504194] (-) TimerEvent: {}
+[4.610490] (-) TimerEvent: {}
+[4.711454] (-) TimerEvent: {}
+[4.820574] (-) TimerEvent: {}
+[4.928468] (-) TimerEvent: {}
+[5.033225] (-) TimerEvent: {}
+[5.146063] (-) TimerEvent: {}
+[5.250564] (-) TimerEvent: {}
+[5.354944] (-) TimerEvent: {}
+[5.458615] (-) TimerEvent: {}
+[5.567583] (-) TimerEvent: {}
+[5.674262] (-) TimerEvent: {}
+[5.778989] (-) TimerEvent: {}
+[5.879795] (-) TimerEvent: {}
+[5.984805] (-) TimerEvent: {}
+[6.089265] (-) TimerEvent: {}
+[6.193524] (-) TimerEvent: {}
+[6.306009] (-) TimerEvent: {}
+[6.412454] (-) TimerEvent: {}
+[6.521950] (-) TimerEvent: {}
+[6.622665] (-) TimerEvent: {}
+[6.728544] (-) TimerEvent: {}
+[6.835875] (-) TimerEvent: {}
+[6.940298] (-) TimerEvent: {}
+[7.042505] (-) TimerEvent: {}
+[7.148699] (-) TimerEvent: {}
+[7.252033] (-) TimerEvent: {}
+[7.364174] (-) TimerEvent: {}
+[7.469552] (-) TimerEvent: {}
+[7.570105] (-) TimerEvent: {}
+[7.672597] (-) TimerEvent: {}
+[7.776927] (-) TimerEvent: {}
+[7.877445] (-) TimerEvent: {}
+[7.983211] (-) TimerEvent: {}
+[8.093107] (-) TimerEvent: {}
+[8.152527] (rfbl_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/rfbl_controller', 'build', '--build-base', '/home/qadeem/control/ros2_ws/src/build/rfbl_controller/build', 'install', '--record', '/home/qadeem/control/ros2_ws/src/build/rfbl_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qadeem/control/ros2_ws/src/rfbl_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'qadeem', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/qadeem', 'OLDPWD': '/home/qadeem/control/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'SYSTEMD_EXEC_PID': '7427', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/qadeem/control/ros2_ws/install:/home/qadeem/drone_ws/install:/home/qadeem/turtlebot3_ws/install:/home/qadeem/control/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'qadeem', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qadeem', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/qadeem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/qadeem-Latitude-7480:@/tmp/.ICE-unix/1536,unix/qadeem-Latitude-7480:/tmp/.ICE-unix/1536', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/41cc9306_197b_44fb_886f_c6c485eacbe4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q33JH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/qadeem/control/ros2_ws/src/install/rfbl_controller:/home/qadeem/control/ros2_ws/install/rfbl_controller:/home/qadeem/drone_ws/install/drone_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qadeem/control/ros2_ws/src/build/rfbl_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/qadeem/control/ros2_ws/src/build/rfbl_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages:/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages:/home/qadeem/control/ros2_ws/install/rfbl_controller/lib/python3.10/site-packages:/home/qadeem/drone_ws/build/drone_controller:/home/qadeem/drone_ws/install/drone_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[8.198286] (-) TimerEvent: {}
+[8.299694] (-) TimerEvent: {}
+[8.407314] (-) TimerEvent: {}
+[8.510384] (-) TimerEvent: {}
+[8.615160] (-) TimerEvent: {}
+[8.720542] (-) TimerEvent: {}
+[8.829626] (-) TimerEvent: {}
+[8.934165] (-) TimerEvent: {}
+[9.036381] (-) TimerEvent: {}
+[9.143514] (-) TimerEvent: {}
+[9.248100] (-) TimerEvent: {}
+[9.356442] (-) TimerEvent: {}
+[9.466270] (-) TimerEvent: {}
+[9.572615] (-) TimerEvent: {}
+[9.673189] (-) TimerEvent: {}
+[9.774925] (-) TimerEvent: {}
+[9.875659] (-) TimerEvent: {}
+[9.984295] (-) TimerEvent: {}
+[10.087095] (-) TimerEvent: {}
+[10.195615] (-) TimerEvent: {}
+[10.296482] (-) TimerEvent: {}
+[10.401037] (-) TimerEvent: {}
+[10.504308] (-) TimerEvent: {}
+[10.609534] (-) TimerEvent: {}
+[10.713139] (-) TimerEvent: {}
+[10.819149] (-) TimerEvent: {}
+[10.919745] (-) TimerEvent: {}
+[11.022845] (-) TimerEvent: {}
+[11.124200] (-) TimerEvent: {}
+[11.233352] (-) TimerEvent: {}
+[11.339237] (-) TimerEvent: {}
+[11.442175] (-) TimerEvent: {}
+[11.550102] (-) TimerEvent: {}
+[11.652969] (-) TimerEvent: {}
+[11.757055] (-) TimerEvent: {}
+[11.858188] (-) TimerEvent: {}
+[11.962701] (-) TimerEvent: {}
+[12.040234] (rfbl_controller) StdoutLine: {'line': b'running egg_info\n'}
+[12.068205] (-) TimerEvent: {}
+[12.169073] (-) TimerEvent: {}
+[12.273250] (-) TimerEvent: {}
+[12.347145] (rfbl_controller) StdoutLine: {'line': b'writing ../build/rfbl_controller/rfbl_controller.egg-info/PKG-INFO\n'}
+[12.347512] (rfbl_controller) StdoutLine: {'line': b'writing dependency_links to ../build/rfbl_controller/rfbl_controller.egg-info/dependency_links.txt\n'}
+[12.351559] (rfbl_controller) StdoutLine: {'line': b'writing entry points to ../build/rfbl_controller/rfbl_controller.egg-info/entry_points.txt\n'}
+[12.351948] (rfbl_controller) StdoutLine: {'line': b'writing requirements to ../build/rfbl_controller/rfbl_controller.egg-info/requires.txt\n'}
+[12.355147] (rfbl_controller) StdoutLine: {'line': b'writing top-level names to ../build/rfbl_controller/rfbl_controller.egg-info/top_level.txt\n'}
+[12.373306] (-) TimerEvent: {}
+[12.474173] (-) TimerEvent: {}
+[12.579369] (-) TimerEvent: {}
+[12.681436] (-) TimerEvent: {}
+[12.766583] (rfbl_controller) StdoutLine: {'line': b"reading manifest file '../build/rfbl_controller/rfbl_controller.egg-info/SOURCES.txt'\n"}
+[12.776717] (rfbl_controller) StdoutLine: {'line': b"writing manifest file '../build/rfbl_controller/rfbl_controller.egg-info/SOURCES.txt'\n"}
+[12.778924] (rfbl_controller) StdoutLine: {'line': b'running build\n'}
+[12.779375] (rfbl_controller) StdoutLine: {'line': b'running build_py\n'}
+[12.779844] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/xy_position_controller.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.780912] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/rfbl_offboard_node.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.781507] (-) TimerEvent: {}
+[12.782092] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/disturbance_observer.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.784497] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/rfbl_controller.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.785649] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/params_refs.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.786251] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/px4_rviz_bridge.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.786682] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/__init__.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.787077] (rfbl_controller) StdoutLine: {'line': b'copying rfbl_controller/xy_disturbance_observer.py -> /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller\n'}
+[12.793843] (rfbl_controller) StdoutLine: {'line': b'running install\n'}
+[12.853140] (rfbl_controller) StdoutLine: {'line': b'running install_lib\n'}
+[12.882119] (-) TimerEvent: {}
+[12.986980] (-) TimerEvent: {}
+[13.093838] (-) TimerEvent: {}
+[13.169785] (rfbl_controller) StdoutLine: {'line': b'copying /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build/lib/rfbl_controller/rfbl_offboard_node.py -> /home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller\n'}
+[13.187461] (rfbl_controller) StdoutLine: {'line': b'byte-compiling /home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller/rfbl_offboard_node.py to rfbl_offboard_node.cpython-310.pyc\n'}
+[13.199660] (-) TimerEvent: {}
+[13.216211] (rfbl_controller) StdoutLine: {'line': b'running install_data\n'}
+[13.221863] (rfbl_controller) StdoutLine: {'line': b'copying resource/rfbl_controller -> /home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/ament_index/resource_index/packages\n'}
+[13.227305] (rfbl_controller) StdoutLine: {'line': b'copying package.xml -> /home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller\n'}
+[13.238522] (rfbl_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.302496] (-) TimerEvent: {}
+[13.411119] (-) TimerEvent: {}
+[13.516812] (-) TimerEvent: {}
+[13.624135] (-) TimerEvent: {}
+[13.632564] (rfbl_controller) StdoutLine: {'line': b"removing '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.635429] (rfbl_controller) StdoutLine: {'line': b'Copying ../build/rfbl_controller/rfbl_controller.egg-info to /home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages/rfbl_controller-0.0.0-py3.10.egg-info\n'}
+[13.635771] (rfbl_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[13.726539] (-) TimerEvent: {}
+[13.830085] (-) TimerEvent: {}
+[13.938081] (-) TimerEvent: {}
+[14.042106] (-) TimerEvent: {}
+[14.146973] (-) TimerEvent: {}
+[14.249502] (-) TimerEvent: {}
+[14.351960] (-) TimerEvent: {}
+[14.453170] (-) TimerEvent: {}
+[14.554969] (-) TimerEvent: {}
+[14.659766] (-) TimerEvent: {}
+[14.762289] (-) TimerEvent: {}
+[14.865426] (-) TimerEvent: {}
+[14.971344] (-) TimerEvent: {}
+[15.079136] (-) TimerEvent: {}
+[15.180275] (-) TimerEvent: {}
+[15.283524] (-) TimerEvent: {}
+[15.387282] (-) TimerEvent: {}
+[15.498724] (-) TimerEvent: {}
+[15.600007] (-) TimerEvent: {}
+[15.704051] (-) TimerEvent: {}
+[15.813218] (-) TimerEvent: {}
+[15.835770] (rfbl_controller) StdoutLine: {'line': b'Installing rfbl_offboard_node script to /home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/rfbl_controller\n'}
+[15.844461] (rfbl_controller) StdoutLine: {'line': b"writing list of installed files to '/home/qadeem/control/ros2_ws/src/build/rfbl_controller/install.log'\n"}
+[15.913559] (-) TimerEvent: {}
+[16.014704] (-) TimerEvent: {}
+[16.116286] (-) TimerEvent: {}
+[16.149529] (rfbl_controller) CommandEnded: {'returncode': 0}
+[16.218338] (-) TimerEvent: {}
+[16.318653] (rfbl_controller) JobEnded: {'identifier': 'rfbl_controller', 'rc': 0}
+[16.319552] (-) TimerEvent: {}
+[16.319760] (-) EventReactorShutdown: {}

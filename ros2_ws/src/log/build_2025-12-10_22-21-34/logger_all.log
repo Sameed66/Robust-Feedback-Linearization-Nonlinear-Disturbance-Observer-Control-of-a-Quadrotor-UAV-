@@ -1,0 +1,116 @@
+[1.612s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rfbl_controller']
+[1.612s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rfbl_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78b4e11a50f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78b4e1216ce0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78b4e1216ce0>>, mixin_verb=('build',))
+[2.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.082s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.084s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qadeem/control/ros2_ws/src'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extension 'ignore'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extension 'ignore_ament_install'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extensions ['colcon_pkg']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extension 'colcon_pkg'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extensions ['colcon_meta']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extension 'colcon_meta'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extensions ['ros']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(rfbl_controller) by extension 'ros'
+[2.221s] DEBUG:colcon.colcon_core.package_identification:Package 'rfbl_controller' with type 'ros.ament_python' and name 'rfbl_controller'
+[2.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.402s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/qadeem/control/ros2_ws/install
+[2.404s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/qadeem/drone_ws/install
+[2.405s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/qadeem/turtlebot3_ws/install
+[2.406s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/qadeem/control/ros2_ws/src/install
+[2.412s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/humble
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.751s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'cmake_args' from command line to 'None'
+[2.751s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'cmake_target' from command line to 'None'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.752s] Level 5:colcon.colcon_core.verb:set package 'rfbl_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.752s] DEBUG:colcon.colcon_core.verb:Building package 'rfbl_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qadeem/control/ros2_ws/src/build/rfbl_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qadeem/control/ros2_ws/src/install/rfbl_controller', 'merge_install': False, 'path': '/home/qadeem/control/ros2_ws/src/rfbl_controller', 'symlink_install': False, 'test_result_base': None}
+[2.753s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.756s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/qadeem/control/ros2_ws/src/rfbl_controller' with build type 'ament_python'
+[2.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('rfbl_controller', 'ament_prefix_path')
+[2.787s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/hook/ament_prefix_path.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/hook/ament_prefix_path.dsv'
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/hook/ament_prefix_path.sh'
+[2.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.864s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/qadeem/control/ros2_ws/src/rfbl_controller'
+[4.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qadeem/control/ros2_ws/src/rfbl_controller': PYTHONPATH=/home/qadeem/control/ros2_ws/src/build/rfbl_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rfbl_controller build --build-base /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build install --record /home/qadeem/control/ros2_ws/src/build/rfbl_controller/install.log --single-version-externally-managed install_data
+[17.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qadeem/control/ros2_ws/src/rfbl_controller' returned '0': PYTHONPATH=/home/qadeem/control/ros2_ws/src/build/rfbl_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rfbl_controller build --build-base /home/qadeem/control/ros2_ws/src/build/rfbl_controller/build install --record /home/qadeem/control/ros2_ws/src/build/rfbl_controller/install.log --single-version-externally-managed install_data
+[17.143s] Level 1:colcon.colcon_core.environment:checking '/home/qadeem/control/ros2_ws/src/install/rfbl_controller' for CMake module files
+[17.147s] Level 1:colcon.colcon_core.environment:checking '/home/qadeem/control/ros2_ws/src/install/rfbl_controller' for CMake config files
+[17.157s] Level 1:colcon.colcon_core.environment:checking '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib'
+[17.165s] Level 1:colcon.colcon_core.environment:checking '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/bin'
+[17.166s] Level 1:colcon.colcon_core.environment:checking '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/pkgconfig/rfbl_controller.pc'
+[17.177s] Level 1:colcon.colcon_core.environment:checking '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/lib/python3.10/site-packages'
+[17.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('rfbl_controller', 'pythonpath')
+[17.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/hook/pythonpath.ps1'
+[17.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/hook/pythonpath.dsv'
+[17.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/hook/pythonpath.sh'
+[17.191s] Level 1:colcon.colcon_core.environment:checking '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/bin'
+[17.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rfbl_controller)
+[17.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/package.ps1'
+[17.206s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/package.dsv'
+[17.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/package.sh'
+[17.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/package.bash'
+[17.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/rfbl_controller/package.zsh'
+[17.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qadeem/control/ros2_ws/src/install/rfbl_controller/share/colcon-core/packages/rfbl_controller)
+[17.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.248s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.422s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.423s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.423s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.605s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qadeem/control/ros2_ws/src/install/local_setup.ps1'
+[17.631s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qadeem/control/ros2_ws/src/install/_local_setup_util_ps1.py'
+[17.650s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qadeem/control/ros2_ws/src/install/setup.ps1'
+[17.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qadeem/control/ros2_ws/src/install/local_setup.sh'
+[17.657s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qadeem/control/ros2_ws/src/install/_local_setup_util_sh.py'
+[17.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qadeem/control/ros2_ws/src/install/setup.sh'
+[17.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qadeem/control/ros2_ws/src/install/local_setup.bash'
+[17.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qadeem/control/ros2_ws/src/install/setup.bash'
+[17.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qadeem/control/ros2_ws/src/install/local_setup.zsh'
+[17.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qadeem/control/ros2_ws/src/install/setup.zsh'

@@ -259,7 +259,7 @@ Multiple trajectories were tested, including:
 # Simulation Results
 
 ## **3D Trajectory Tracking**
-![3D Trajectory](f_results/Figure_1_3D_Trajectory.png)
+![3D Trajectory](pythin/f_results/Figure_1_3D_Trajectory.png)
 
 ## **Position Tracking**
 ![Position Tracking](f_results/Figure_2_Position_Tracking.png)

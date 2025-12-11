@@ -259,19 +259,19 @@ Multiple trajectories were tested, including:
 # Simulation Results
 
 ## **3D Trajectory Tracking**
-![3D Trajectory](pythin/f_results/Figure_1_3D_Trajectory.png)
+![3D Trajectory](python/f_results/Figure_1_3D_Trajectory.png)
 
 ## **Position Tracking**
-![Position Tracking](f_results/Figure_2_Position_Tracking.png)
+![Position Tracking](python/f_results/Figure_2_Position_Tracking.png)
 
 ## **Attitude Tracking**
-![Attitude Tracking](f_results/Figure_3_Attitude_Tracking.png)
+![Attitude Tracking](python/f_results/Figure_3_Attitude_Tracking.png)
 
 ## **Control Inputs**
-![Control Inputs](f_results/Figure_4_Control_Inputs.png)
+![Control Inputs](python/f_results/Figure_4_Control_Inputs.png)
 
 ## **Disturbance Estimation**
-![Disturbance](f_results/Figure_5_Disturbance.png)
+![Disturbance](python/f_results/Figure_5_Disturbance.png)
 
 ---
 

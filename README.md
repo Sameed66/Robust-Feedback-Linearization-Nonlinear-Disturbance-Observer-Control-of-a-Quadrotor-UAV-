@@ -275,6 +275,13 @@ Multiple trajectories were tested, including:
 
 ---
 
+# Demo Video 
+
+### Demo Video
+
+[Click to watch the demo video](Demo/demo_Video_Gazebo.mp4)
+
+
 # ROS2 + PX4 SITL Implementation
 
 The ROS2 Offboard node:
